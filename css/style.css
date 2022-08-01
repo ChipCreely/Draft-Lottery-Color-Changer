@@ -1,0 +1,114 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {}
+
+footer {}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+h1 {
+  font-size: 100px;
+}
+
+
+div {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+@keyframes fader {
+  0% {
+    background-color: black;
+  }
+
+  10% {
+    background-color: grey;
+  }
+
+  20% {
+    background-color: white;
+  }
+
+  30% {
+    background-color: grey;
+  }
+
+  40% {
+    background-color: black;
+  }
+
+  50% {
+    background-color: grey;
+  }
+
+  60% {
+    background-color: white;
+  }
+
+  70% {
+    background-color: grey;
+  }
+
+  80% {
+    background-color: black;
+  }
+
+  90% {
+    background-color: grey;
+  }
+
+  100% {
+    background-color: white;
+  }
+}
+
+section {
+  height: 600px;
+  width: 50%;
+  background-color: blue;
+  justify-content: center;
+
+
+}
+
+.colorBox {
+  animation-name: fader;
+  animation-duration: 2s;
+}
+
+button {
+  margin-top: 50px;
+  padding: 10px;
+  height: 200px;
+  width: 500px;
+
+}
