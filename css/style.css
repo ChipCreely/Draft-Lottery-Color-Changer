@@ -51,7 +51,7 @@ div {
   }
 
   10% {
-    background-color: grey;
+    background-color: red;
   }
 
   20% {
@@ -59,15 +59,15 @@ div {
   }
 
   30% {
-    background-color: grey;
+    background-color: blue;
   }
 
   40% {
-    background-color: black;
+    background-color: yellow;
   }
 
   50% {
-    background-color: grey;
+    background-color: blue;
   }
 
   60% {
@@ -75,15 +75,15 @@ div {
   }
 
   70% {
-    background-color: grey;
+    background-color: red;
   }
 
   80% {
-    background-color: black;
+    background-color: yellow;
   }
 
   90% {
-    background-color: grey;
+    background-color: blue;
   }
 
   100% {
